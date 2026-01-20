@@ -1,0 +1,56 @@
+Delta-Operator/
+├── Delta-DiT
+│   ├── celeba
+│   │   ├── dataset.py
+│   │   ├── results
+│   │   │   └── CelebA64_XPred_20251214_042055
+│   │   │       ├── checkpoints
+│   │   │       │   ├── best_model.pt
+│   │   │       │   ├── epoch_100.pt
+│   │   │       │   └── epoch_5.pt
+│   │   │       ├── logs
+│   │   │       │   ├── collector.py
+│   │   │       │   ├── training_log.txt
+│   │   │       │   └── training_log_analysis
+│   │   │       │       └── summary_report_celeba.txt
+│   │   │       └── samples
+│   │   └── train-Delta-DiT-CelabA.py
+│   └── imagenet-tiny
+│       ├── imagenet-tiny.py
+│       ├── results
+│       │   └── TinyImageNet_200Class_20251221_012649
+│       │       ├── checkpoints
+│       │       │   ├── best_model.pt
+│       │       │   └── epoch_200.pt
+│       │       ├── logs
+│       │       │   ├── collector.py
+│       │       │   ├── training_log.txt
+│       │       │   └── training_log_analysis
+│       │       │       └── summary_report_imagenet.txt
+│       │       └── samples
+│       └── train-Delta-DiT-imagenetTiny.py
+├── Delta-LLM
+│   ├── bitnet-100M.py
+│   ├── deltallm-100M.py
+│   ├── performer-100M.py
+│   └── standard-100M.py
+├── Delta-LLM-0.94B
+│   ├── DeltaLLM.py
+│   ├── Standard.py
+│   ├── checkpoints_delta_llm-1B
+│   │   └── training-delta.log
+│   ├── checkpoints_standard-1B
+│   │   └── training-standard.log
+│   ├── prepare_data_llama.py
+│   ├── train_DeltaLLM.py
+│   └── train_Standard.py
+├── Delta-Vis
+│   ├── Delta_Vis_CIFAR100-Trainlog.txt
+│   ├── Delta_Vis_CIFAR100.pt
+│   ├── Delta_Vis_CIFAR100.py
+│   ├── Delta_Vis_ImageNet-Trainlog.txt
+│   ├── Delta_Vis_ImageNet.pt
+│   └── Delta_Vis_ImageNet.py
+├── Paperfigures
+├── project_tree.txt
+└── requirements.txt

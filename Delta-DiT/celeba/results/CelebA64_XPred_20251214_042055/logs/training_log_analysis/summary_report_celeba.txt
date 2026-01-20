@@ -1,0 +1,15 @@
+=== Analysis Report for training_log ===
+
+Total Steps: 1266200
+Total Epochs: 100
+Best Epoch: 100 (Loss: 0.050133)
+Total Training Time: 60.57 hours
+
+--- Parameter Convergence ---
+Gamma (Scale): Start=1.0010 -> End=3.6150
+Rho (Tail):    Start=2.0010   -> End=5.5920
+
+--- Stability Statistics ---
+Max Grad Norm: 0.9281
+Mean Grad Norm: 0.1661
+Final Smoothed Grad: 0.2205

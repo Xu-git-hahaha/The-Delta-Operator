@@ -1,0 +1,15 @@
+=== Analysis Report for training_log ===
+
+Dataset: Tiny ImageNet (Inferred)
+Total Steps: 1250000
+Total Epochs: 200
+Best Epoch: 200 (Loss: 0.081100)
+Total Training Time: Not logged
+
+--- Parameter Convergence ---
+Gamma: Start=1.0000 -> End=3.8700
+Rho:   Start=2.0000   -> End=5.1520
+
+--- Stability Statistics ---
+Max Grad Norm: 0.8135
+Mean Grad Norm: 0.1357
