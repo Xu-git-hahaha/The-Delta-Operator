@@ -8,7 +8,7 @@ We propose the **Delta Operator**, a distance-based primitive in neural networks
 
 * **`Delta-DiT/`**: Implementation of Delta-Operator in Diffusion Transformers (trained on CelebA and Tiny-ImageNet).
 * **`Delta-LLM/`**: Small-scale (100M) language modeling experiments comparing DeltaNet, BitNet, Performer, and Standard Transformer.
-* **`Delta-LLM-0.94B/`**: Large-scale (0.94B parameter) language modeling implementation (DeltaLLM vs. Standard LLaMA-based models).
+* **`Delta-LLM-0.94B/`**: Large-scale (0.94B parameter) language modeling implementation.
 * **`Delta-Vis/`**: Implementation for computer vision classification tasks (CIFAR-100, ImageNet).
 
 ## Requirements
